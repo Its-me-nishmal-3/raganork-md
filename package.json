@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "description": "A light weight WhatsApp bot.",
   "scripts": {
-    "start": "pm2 start . --attach --name Raganork"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,9 @@
     "acrcloud": "1.4.0",
     "adm-zip": "0.5.9",
     "awesome-phonenumber": "5.3.0",
+    "axios": "^1.7.7",
     "badwords": "1.0.0",
+    "express": "^4.19.2",
     "google-tts-api": "2.0.2",
     "image-to-pdf": "2.0.0",
     "imgur": "^2.2.0",
